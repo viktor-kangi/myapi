@@ -18,8 +18,10 @@ gem "puma", "~> 5.0"
 # Build JSON APIs with ease [https://github.com/rails/jbuilder]
 gem "jbuilder"
 
+gem 'active_model_serializers'
 # Use Redis adapter to run Action Cable in production
 # gem "redis", "~> 4.0"
+gem 'active_model_serializers'
 
 # Use Kredis to get higher-level data types in Redis [https://github.com/rails/kredis]
 # gem "kredis"
@@ -63,6 +65,4 @@ group :test do
   gem "capybara"
   gem "selenium-webdriver"
   gem "webdrivers"
-  gem "faker"
-  gem "active_model_serializers"
 end
